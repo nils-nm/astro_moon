@@ -1,4 +1,3 @@
-
 # astro game
 
 import pygame
