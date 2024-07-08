@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 
 # astro game
 
@@ -68,7 +69,7 @@ txt_map = [
     '11111111111111111111111111111111',
 
 ]
-astro_list = pygame.image.load('astro_list.png')
+astro_list = pygame.image.load('images/astro_list.png')
 astro_state = [astro_list.subsurface(0, 0, 32, 32),
                astro_list.subsurface(32, 0, 32, 32),
                astro_list.subsurface(64, 0, 32, 32),
@@ -127,32 +128,32 @@ mob_eye = [astro_list.subsurface(288, 32, 32, 32),
            astro_list.subsurface(448, 32, 32, 32),
            astro_list.subsurface(480, 32, 32, 32),
            astro_list.subsurface(288, 32, 32, 32)]
-astro_ship = [pygame.image.load('astro_ship_1.png'),
-              pygame.image.load('astro_ship_2.png'),
-              pygame.image.load('astro_ship_3.png'),
-              pygame.image.load('astro_ship_4.png'),
-              pygame.image.load('astro_ship_5.png'),
-              pygame.image.load('astro_ship_6.png'),
-              pygame.image.load('astro_ship_7.png'),
-              pygame.image.load('astro_ship_8.png'),
-              pygame.image.load('astro_ship_9.png')]
-astro_bg_1 = [pygame.image.load('astro_bg_1_1.png'),
-              pygame.image.load('astro_bg_1_2.png'),
-              pygame.image.load('astro_bg_1_3.png'),
-              pygame.image.load('astro_bg_1_4.png'),
-              pygame.image.load('astro_bg_1_5.png')]
-astro_bg_2 = [pygame.image.load('astro_bg_2_1.png'),
-              pygame.image.load('astro_bg_2_2.png'),
-              pygame.image.load('astro_bg_2_3.png'),
-              pygame.image.load('astro_bg_2_4.png'),
-              pygame.image.load('astro_bg_2_5.png')]
-astro_ship_most = pygame.image.load('astro_ship_most.png')
-astro_ship_most_sms = pygame.image.load('astro_ship_most_sms.png')
-astro_ship_engener = pygame.image.load('astro_ship_engener.png')
-astro_ship_engener_none_det = pygame.image.load('astro_ship_engener_none_det.png')
-astro_ship_reactor = pygame.image.load('astro_ship_reactor.png')
-astro_ship_reactor_damage = pygame.image.load('astro_ship_reactor_damage.png')
-you_win = pygame.image.load('you_win.png')
+astro_ship = [pygame.image.load('images/astro_ship_1.png'),
+              pygame.image.load('images/astro_ship_2.png'),
+              pygame.image.load('images/astro_ship_3.png'),
+              pygame.image.load('images/astro_ship_4.png'),
+              pygame.image.load('images/astro_ship_5.png'),
+              pygame.image.load('images/astro_ship_6.png'),
+              pygame.image.load('images/astro_ship_7.png'),
+              pygame.image.load('images/astro_ship_8.png'),
+              pygame.image.load('images/astro_ship_9.png')]
+astro_bg_1 = [pygame.image.load('images/astro_bg_1_1.png'),
+              pygame.image.load('images/astro_bg_1_2.png'),
+              pygame.image.load('images/astro_bg_1_3.png'),
+              pygame.image.load('images/astro_bg_1_4.png'),
+              pygame.image.load('images/astro_bg_1_5.png')]
+astro_bg_2 = [pygame.image.load('images/astro_bg_2_1.png'),
+              pygame.image.load('images/astro_bg_2_2.png'),
+              pygame.image.load('images/astro_bg_2_3.png'),
+              pygame.image.load('images/astro_bg_2_4.png'),
+              pygame.image.load('images/astro_bg_2_5.png')]
+astro_ship_most = pygame.image.load('images/astro_ship_most.png')
+astro_ship_most_sms = pygame.image.load('images/astro_ship_most_sms.png')
+astro_ship_engener = pygame.image.load('images/astro_ship_engener.png')
+astro_ship_engener_none_det = pygame.image.load('images/astro_ship_engener_none_det.png')
+astro_ship_reactor = pygame.image.load('images/astro_ship_reactor.png')
+astro_ship_reactor_damage = pygame.image.load('images/astro_ship_reactor_damage.png')
+you_win = pygame.image.load('images/you_win.png')
 world_map = set()
 for i, row in enumerate(txt_map):
     for j, char in enumerate(row):
